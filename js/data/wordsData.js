@@ -1,11 +1,26 @@
 const wordsData = [
     {
         en: 'dog',
-        lt: 'šuo'
+        lt: 'šuo',
     },
     {
         en: 'cat',
         lt: 'katė'
+    },
+    {},
+    255,
+    'skdks',
+    [],
+    null,
+    {
+        en: 'kite',
+    },
+    {
+        lt: 'aitvaras'
+    },
+    {
+        en: 5528,
+        lt: 'aitvaras'
     },
     {
         en: 'kite',
