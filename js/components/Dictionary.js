@@ -62,6 +62,16 @@ class Dictiniory {
     // turinio generavimas
     render() {
         console.log('piesiam turini');
+        console.log(this.DOM); // elementas, kuriame nugili informacija
+        console.log(this.dictinioryList); // info, kuria naudojant sugeneruojamas turinys
+
+        // const HTML = '<div class="rytas" >Labas</div>'
+        // this.DOM.innerText = HTML; nuskato kaip teksta ir visa atvaizduoja
+
+        // this.DOM.innerText = 'Labas rytas' // ikeliamas tekstas
+
+        const HTML = '<div class="rytas" >Labas</div>'
+        this.DOM.innerHTML = HTML; // ikelia tik labas
     }
 }
 
